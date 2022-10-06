@@ -8,8 +8,8 @@ public class Main {
 	
 	public static boolean countConsecutifElements(String str, int n) {
 		
-		if (n < 0) throw new IllegalArgumentException("the int parameter should be greater or equal to 0");
-		if ( (str.isEmpty() || str == null) && n > 0) throw new IllegalArgumentException("The string parameter should not be null or empty for for an int value greater than 0");
+		if (n < 0) throw new IllegalArgumentException("The int parameter should be greater or equal to 0");
+		if ( (str.isEmpty() || str == null) && n > 0) throw new IllegalArgumentException("The string parameter should not be null or empty for an int value greater than 0");
 		else if ( (str.isEmpty() || str == null) && n == 0) return true;
 		
 		char[] strArray = str.toCharArray();
